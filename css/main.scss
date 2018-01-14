@@ -31,11 +31,29 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
-    color: #C03245;
-    margin: 0 auto;
-    font-size: 600;
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+.parent {
+  position: relative;
+  background: #f06d06;
+  width: 60%;
+  height: 200px;
+  margin: 20px auto;
+}
+.h1 {
+  @include centerer;
+  background: white;
+  padding: 20px;
+  color: #C03245;
+  font-size: 600;
+}
+
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
