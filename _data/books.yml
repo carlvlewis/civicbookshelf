@@ -1,28 +1,26 @@
-- title: Beyond Transparency - Open Data and Innovation 
+- title: Beyond Transparency - Open Data and Innovation
   author: Ed Brook Goldstein and Lauren Dyson
   image: beyond-transparency.jpg
-  link: http://beyondtransparency.org/
-
-- title: The Revenant
-  author: Michael Punke
-  image: therevenant.jpg
-  link:
-
+  link: 'http://beyondtransparency.org/'
+- title: >-
+    The Power of Social Innovation - How Civic Entrepreneurs Ignite Community
+    Networks for Good
+  author: 'Stephen Goldsmith, Gigi Georges'
+  image: /images/power-of-social-innovation.jpg
+  link: >-
+    https://www.wiley.com/en-us/The+Power+of+Social+Innovation%3A+How+Civic+Entrepreneurs+Ignite+Community+Networks+for+Good-p-9780470576847
 - title: Wool
   author: Hugh Howey
   image: wool.jpg
   link:
-
 - title: The Martian
   author: Andy Weir
   image: themartian.jpg
   link:
-
 - title: The Man in the High Castle
   author: Philip K Dick
   image: themaninthehighcastle.jpg
   link:
-
 - title: Deception Point
   author: Dan Brown
   image: deceptionpoint.jpg
