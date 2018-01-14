@@ -116,19 +116,24 @@ img {
           flex: 1;
   padding-right: ($spacing-unit * 2);
   padding-left: ($spacing-unit * 2);
-  -webkit-filter: brightness(70%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    transition: all 1s ease;
+
 }
 
   > img {
     max-width: 100%;
     height: auto;
   }
-
+ > img:hover {
+    max-width: 100%;
+    height: auto;
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+  }
   > a {
     display: block;
   }
