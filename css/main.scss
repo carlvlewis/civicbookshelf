@@ -31,26 +31,10 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-@mixin centerer {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.parent {
-  position: relative;
-  background: #f06d06;
-  width: 60%;
-  height: 200px;
-  margin: 20px auto;
-}
-.h1 {
-  @include centerer;
-  background: white;
-  padding: 20px;
-  color: #C03245;
-  font-size: 600;
+h1 {
+    color: #C44152;
+    font-size: 700;
+    text-align: center;
 }
 
 
